@@ -193,6 +193,8 @@ class ClickDirective(Directive):
         # so we ensure module path is a string here.
         module_path = str(module_path)
 
+        print "******************************** MEOW"
+
         try:
             module_name, attr_name = module_path.split(':', 1)
         except ValueError:  # noqa
